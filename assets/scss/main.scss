@@ -1,0 +1,22 @@
+//abstracts
+@import "abstracts/variables";
+
+//vendor
+//@import "vendor/bootstrap-4.5.0/bootstrap";
+@import "bootstrap_4.5.0-override";
+//base
+@import "base/reset";
+
+//components
+@import "components/button";
+
+//layaout
+@import "layaout/header";
+@import "layaout/footer";
+@import "layaout/pagination";
+@import "layaout/section";
+@import "layaout/start";
+@import "layaout/us";
+
+//pages
+@import "pages/blog";
